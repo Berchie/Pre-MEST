@@ -1,11 +1,12 @@
 import React from 'react';
+import './component.css'
 
 function Buttons() {
     return(
-        <div>
+        <div className="body-text">
             <form>
-                <button>Search</button>
-                <button>Google</button>
+            <input id="search" type="button" value="Search"></input>
+            <input id="google" type="button" value="Google"></input>
             </form>
         </div>
     );

@@ -1,8 +1,14 @@
 import React from 'react';
+import './component.css'
 
 function HeaderTitle() {
     return(
-        <h1><code>ReactJs Knowledge</code></h1>
+        <div>
+            <h1 className="head-title body-text">
+            <code>ReactJs Knowledge</code>
+            </h1>
+        </div>
+        
     )
 }
 

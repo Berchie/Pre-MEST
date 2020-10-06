@@ -1,0 +1,73 @@
+.body-text{
+    text-align: center;
+}
+
+.head-title{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+code{
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #29BABB;
+}
+
+.searchinput{
+    margin: 20px 0px;
+
+}
+
+.input-text{
+    padding: 15px;
+    width: 700px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    
+    border: 3px none;
+  }
+
+input[type = button]{
+    /* background-color: #4CAF50; */
+    border: none;
+    color: white;
+    margin: 10px;
+    padding: 10px 40px;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#search{
+    background-color: #29BABB;
+}
+
+#google{
+    background-color: #184EA5;
+}
+
+h5{
+    display: inline;
+    margin: 10px 0px;
+    padding: 10px;
+    font-weight: normal;
+    color: #212121;
+}
+
+
+.flex-container{
+    display: flex;
+    flex-flow: row;
+}
+
+.flex-container > div{
+    background-color: #f1f1f1;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    /* font-size: 30px; */
+}

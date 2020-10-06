@@ -7,6 +7,7 @@ import SearchInput from './SearchInput';
 import Buttons from './Buttons';
 import HeaderTitle from './HeaderTitle';
 import LocalLang from './LoncalLang';
+import Content from './Content';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.render(
     <SearchInput />
     <Buttons />
     <LocalLang />
+    <Content />
   </React.StrictMode>,
   document.getElementById('root')
 );
