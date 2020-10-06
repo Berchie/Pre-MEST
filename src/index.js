@@ -10,6 +10,7 @@ import LocalLang from './LoncalLang';
 import Content from './Content';
 import ReactImages from './ReactImages';
 import Footer from './Footer';
+import ResourcesBg from './ResourcesBg';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.render(
     <LocalLang />
     <Content />
     <ReactImages />
+    <ResourcesBg />
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')
