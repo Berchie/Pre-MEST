@@ -91,9 +91,23 @@ h5{
 .footer{
     background-color: #212121;
     height: 30px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .res-link{
+    display: inline;
+    color: #61dafb;
+    /* text-align: center; */
+    font-weight: normal;
+    font-size: 30px;
+    padding-top: 30px;
     
+}
+
+.res-bg{
+    background-color: #424141;
+    text-align: center;
+    /* margin-top: 20px; */
+    height: 60px;
+    padding-top: 10px;
 }
