@@ -61,13 +61,22 @@ h5{
 .flex-container{
     display: flex;
     flex-flow: row;
+    align-items: center;
+    
 }
 
 .flex-container > div{
     background-color: #f1f1f1;
-    width: 400px;
+    width: 4500px;
     margin: 10px;
+    padding: 20px;
     text-align: center;
     line-height: 25px;
     /* font-size: 30px; */
+}
+
+.images{
+    width: 420px;
+    margin: 10px;
+    padding: 10px;
 }

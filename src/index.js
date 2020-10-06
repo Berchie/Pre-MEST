@@ -8,6 +8,7 @@ import Buttons from './Buttons';
 import HeaderTitle from './HeaderTitle';
 import LocalLang from './LoncalLang';
 import Content from './Content';
+import ReactImages from './ReactImages';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.render(
     <Buttons />
     <LocalLang />
     <Content />
+    <ReactImages />
   </React.StrictMode>,
   document.getElementById('root')
 );
