@@ -8,7 +8,7 @@ function Resources() {
                     Join the Community
             </a>
             
-            <a className="res-link" href="https://reactjs.org/community/support.html" target="_blank"
+            <a className="res-link" href="https://reactjs.org/tutorial/tutorial.html" target="_blank"
                 rel="noopener noreferrer">
                     Start the Tutorial
             </a>
