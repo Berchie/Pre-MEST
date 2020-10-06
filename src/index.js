@@ -9,6 +9,7 @@ import HeaderTitle from './HeaderTitle';
 import LocalLang from './LoncalLang';
 import Content from './Content';
 import ReactImages from './ReactImages';
+import Footer from './Footer';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,6 +20,7 @@ ReactDOM.render(
     <LocalLang />
     <Content />
     <ReactImages />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
