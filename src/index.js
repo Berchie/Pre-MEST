@@ -5,12 +5,16 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import SearchInput from './SearchInput';
 import Buttons from './Buttons';
+import HeaderTitle from './HeaderTitle';
+import LocalLang from './LoncalLang';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <HeaderTitle />
     <SearchInput />
     <Buttons />
+    <LocalLang />
   </React.StrictMode>,
   document.getElementById('root')
 );

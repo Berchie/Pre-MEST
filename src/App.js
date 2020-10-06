@@ -23,8 +23,12 @@ function App() {
       <header className="App-header-Menu">
           <img src={logo1} className="App-logo1" alt="logo" />
           <ul>
-            <li>About</li>
-            <li>Help</li>
+            <li className="links">
+              <a href="https://reactjs.org" target="-blank" rel="noopener noreferrer">About</a>
+            </li>
+            <li className="links">
+              <a href="https://meltwater.org" target="_blank" rel="noopener noreferrer">Contact</a>
+            </li>
           </ul>
       </header>
     </div>
